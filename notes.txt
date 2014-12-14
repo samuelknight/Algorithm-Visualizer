@@ -1,0 +1,3 @@
+﻿var properties = typeof(Form).GetProperties()
+    .Where(prop => prop.IsDefined(typeof(BrowsableAttribute), false));
+
